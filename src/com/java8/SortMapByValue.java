@@ -30,6 +30,7 @@ public class SortMapByValue {
                 });
 
 	    /* For Java 8, try this lambda
+		
 		Map<Integer, String> treeMap = new TreeMap<>(
 		                (Comparator<Integer>) (o1, o2) -> o2.compareTo(o1)
 		        );
